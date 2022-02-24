@@ -34,12 +34,11 @@ const sale=Math.round(Math.random()*(100-1)+1);
 console.log(sale);
 
 const discount=sumPrice*sale;
-
 const sumToPay=(sumPrice-discount/100).toFixed(2);
 console.log(sumToPay);
+
 const netProfit=sumToPay-(sumPrice/2);
 console.log(netProfit.toFixed(2));
-
 
 document.writeln(  `
 
